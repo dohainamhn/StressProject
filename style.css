@@ -1,0 +1,234 @@
+
+body {
+    background-color: #ffffff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 200px;
+}
+
+#navbar {
+    border-bottom: #ada8a8 solid 1px;
+    padding: 6px 0 7px 0;
+    width: 1119px;
+    top: 0;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 2;
+}
+
+#navbar .menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 45px;
+    margin: 0 ;
+    padding: 0;
+    width: 100%;  
+}
+.menu li  {
+    padding: 0 10px;
+    cursor: pointer;    
+    font-size: 18px;
+    margin-right: 20px;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar .menu #logo {
+    width: 40px;
+    height: 50px;
+    background: url(/image/elephant.svg);
+    background-size: cover;
+    background-position-y: -4px ;
+    
+} 
+
+#navbar #container_element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+#container_element .search_container input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px  0 0 5px;
+    border: 1.5px solid rgb(55, 124, 202);
+    outline: none;
+}
+
+#container_element .search_container button {
+    height: 35px;
+    width: 40px;
+    border: 0;
+    background: linear-gradient(to right, #2f82ed 0%, #00afef 100%);
+    border-radius: 0 5px 5px 0 ;
+    position: absolute;
+    color: #ffffff;    
+    outline: none;
+    cursor: pointer;
+}
+
+.search_container {
+    margin-right: 40px;
+    height:  100%;
+}
+
+.menu li a:hover {
+    color: rgb(52, 96, 218);
+}
+
+#body_main {
+    margin-top: 75px;
+}
+
+.my_slide {
+    display: none;
+}
+
+.banner{
+    display: flex;
+}
+.slide_container {
+    width: 830px;
+   
+}
+.poster_banner {
+    flex: 1 ;
+    margin-left: 20px;
+}
+
+.poster_banner img {
+    width: 268px;
+    height: 380px;
+}
+.my_slide img {
+    width: 100%;
+    height: 300px;
+}
+.row {
+      display: flex;
+      justify-content: space-around;
+      padding: 5px 0;
+      bottom: 10px;
+      background-color: rgba(0,0,0,0.5);
+      position: relative;
+      width: 100%;
+  }
+
+.column {
+      flex-basis: 19%;
+      border: 5px solid black;
+      transition: 0.2s;
+      cursor: pointer;
+  }
+
+.column img {
+      width: 100%;
+  }
+  
+.column:hover {
+    border: 5px solid red;
+}
+
+/* @media screen and (max-width: 1190px) {
+   .navbar {
+       padding: 0 10px;
+       margin: 0;
+   }
+   .slide_container {
+    width: 668px;
+    height: 269px;
+    }
+    .main{
+        flex: 3;
+        margin-right: 0;
+    }
+} */
+
+.content {
+    display: flex;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 830px;
+}
+
+
+.poster_content img {
+    width: 268px;
+    height: 250px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.title {
+    color: #2daaed;
+    font-size: 25px;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+    margin:0;
+}
+
+.container_box {
+    display: flex;
+}
+
+.container_box .box_play {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    background-image: url("https://loremflickr.com/320/240" );
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.container_box .box_play:last-child {
+    margin-right: 0 ;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.overlay .far {
+    font-size: 50px;
+    color: white;
+}
+
+.container_box .box_play .overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container_box .box_play p {
+    text-align: center;
+    margin: 10px 0 ;
+}
+
+.container_box .box_play p:hover {
+    cursor: pointer;
+    color: rgb(52, 96, 218);
+}
