@@ -32,27 +32,33 @@ body {
   align-items: center;
 }
 
-.top-nav__menu {
+.top-nav__list-item {
   display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
   align-items: center;
 }
-.top-nav__menu li img {
+.top-nav__list-item li a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-nav__list-item li a:hover {
+  color: rgb(64, 140, 240);
+  cursor: pointer;
+}
+
+.top-nav__list-item li a img {
   max-width: 5rem;
 }
 
-.top-nav__menu li {
+.top-nav__list-item li {
   list-style: none;
   margin: 0 20px;
   font-size: 2rem;
 }
 
-.top-nav__menu > li:hover {
-  color: rgb(64, 140, 240);
-  cursor: pointer;
-}
 .top-nav__search {
   display: flex;
 }
