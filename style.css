@@ -11,17 +11,20 @@ html {
 body {
   font-size: 1.6rem;
 }
-
+header {
+  height: 5.5rem;
+}
 .top-nav {
   background-color: #ffffff;
   border-bottom: 1px rgb(158, 157, 157) solid;
   width: 100%;
   position: fixed;
+  /* padding: 1rem 0; */
   top: 0;
 }
 
 .container {
-  max-width: 1024px;
+  width: 1024px;
   margin: auto;
 }
 
@@ -82,4 +85,37 @@ body {
   color: #ffffff;
   font-size: 2rem;
   cursor: pointer;
+}
+
+.box-content .row {
+  margin-top: 2rem;
+  display: flex;
+  /* align-items: stretch; */
+}
+
+.column-left {
+  flex-basis: 75%;
+  padding-right: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.column-right {
+  flex-basis: 25%;
+}
+
+.slider-defult__small-img {
+  display: flex;
+  padding: 1rem 0;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  /* justify-content: space-around; */
+}
+
+.slider-defult__small-img .column-img {
+  flex-basis: 19.3%;
+  margin: auto;
+  border: 5px solid black;
 }
