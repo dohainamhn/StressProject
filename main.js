@@ -10,7 +10,7 @@ function changeslides(a, index) {
     i.style.border = '5px solid black';
   }
   img.setAttribute('src', a);
-  columnImg[index].style.border = '5px solid red';
+  columnImg[index].style.border = '4px solid #e74c3c';
 }
 //============= slider auto=======
 window.setInterval(() => {
