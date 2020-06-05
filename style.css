@@ -24,7 +24,7 @@ header {
   position: fixed;
   /* padding: 1rem 0; */
   top: 0;
-  z-index: 10;
+  z-index: 999;
 }
 
 .container {
@@ -205,6 +205,7 @@ img {
 }
 
 .footer {
+  margin-top: 40px;
   padding-top: 20px;
   background: #efefef;
   font-size: 14px;

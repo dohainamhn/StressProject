@@ -14,7 +14,13 @@ async function loadVideo(){
     html += '<div class="cot">'
     for(let x =0;x<6;x++){
       if(count < data.length){
-        html += `<a onclick="press(${data[count].id})" href ="#"><img src="${data[count]['img']}"></a>`
+        html += `<div class="hop" onclick="press(${data[count].id})">
+        <img class ="cursor" src="${data[count]['img']}">
+        <div class ="overlay"></div>
+        <div class ="name cursor">
+        <p>${data[count].name}</p>
+        </div>
+        </div>`
         count ++
       }
       if(count>data.length){
@@ -28,11 +34,11 @@ async function loadVideo(){
 async function slideShow(){
   let data = await loadData("json/video.json")
   let html = ""
-  for(let x of data){
+  for(let x=0; x<10;x++){
     html += `
     <div class="mySlides">
-    <a href="#" onclick ="press(${x.id})">
-    <img src="${x["img"]}" style="width:240px;height: 350px;">
+    <a href="#" onclick ="press(${data[x].id})">
+    <img src="${data[x]["img"]}" style="width:240px;height: 350px;">
     </a>
     </div>`
   }
@@ -41,25 +47,34 @@ async function slideShow(){
   slide.innerHTML = html
 }
 function plusSlides(){
+  if(slide.scrollLeft>1458){
+
+  }
+  else{
     slide.scrollTo({
       left:x += 784,
       behavior:"smooth",
-    });
-    console.log('ok')
+    })
+  }
+  console.log(slide.scrollLeft)
 }
 function plusSlide(){
-  
-    slide.scrollTo({
-      left:x -= 784,
-      behavior:"smooth",
-    })
-    console.log('ok')
+    if(slide.scrollLeft<784){
+
+    }
+    else{
+      slide.scrollTo({
+        left:x -= 784,
+        behavior:"smooth",
+      })
+    }
+ console.log(slide.scrollLeft)
 }
 
 async function showFilmHot(){
   let data = await loadData('json/video.json')
   const box = document.getElementById('box')
-  let html = `<span class="title">Phim Hot</span>`
+  let html = `<span class="title"><i class="fas fa-trophy"></i> Bảng Xếp Hạng Phim</span>`
   for(let i = 0;i<5;i++){
     html += `<div class="video-hot">
     <a href="#" onclick="press(${data[i].id})">
@@ -91,7 +106,10 @@ function off(){
   const screen = document.getElementById("container-content")
   screen.style.display = "none"
 }
-
+async function show(){
+  console.log(await loadData("json/video.json"))
+}
+show()
 loadVideo()
 slideShow()
 showFilmHot()
