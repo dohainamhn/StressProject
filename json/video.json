@@ -3,98 +3,98 @@
         "name":"Iron Man 2 (2010)",
         "nameVN": "Người Sắt 2",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/005/iron2.jpg",
-        "link":"https://r1---sn-i3beln76.c.drive.google.com/videoplayback?expire=1591295806&ei=_gbZXqrqFIeiuQXKiaSYCQ&ip=118.70.33.86&cp=QVNOU0NfVFhOR1hOOjVpb0ZtbHl5OW9ic1BIUmJBVmNyWWhLRW1RWEdDb0Z3ek1yY2l2TVF2cng&id=b569c5d84f0fcfbd&itag=59&source=webdrive&requiressl=yes&mh=mS&mm=32&mn=sn-i3beln76&ms=su&mv=u&mvi=0&pl=20&ttl=transient&susc=dr&driveid=1lOe72zinpa7EB0fAc85F1zm_fQEM9vm-&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=7479.240&lmt=1585981605392042&mt=1591281074&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAPRRP33DzbA3b_00GYhNo2ZsuAm07OP8AJBQrbPcAVovAiEAqaIR8dkREH-hxYfHXy2gCd7xt8jL_oqiFbZuxVWVQjA=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAKlNz_m_2xkVq1yrhpkVribjDWcZLeAbdHCfDKgcbFCzAiEA-VVw1NYMAKmcP9QLTJxNffcR34u1Wbr5tn-Bvwe6-D4=&cpn=YNwv7SHCKR-LuWyV&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1lOe72zinpa7EB0fAc85F1zm_fQEM9vm-/preview?autoplay=0",
         "id": 1
     },
     {
-        "name":"Spider man 2",
-        "nameVN": "Người Nhện 2",
-        "img":"./videoImage/spiderman2.jpg",
-        "link":"https://www.youtube.com/embed/7HEmMDWHikM",
+        "name":"The Amazing Spider-Man 2 (2014)",
+        "nameVN": "Người Nhện Siêu Đẳng 2",
+        "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/a1/nhen_2.jpg",
+        "link":"https://drive.google.com/file/d/1Ljm6jJfe9wtT2NhJoL4Xf-hy3HME2GiS/preview",
         "id":2
     },
     {
         "name":"Iron Man 3 (2013)",
         "nameVN": "Người Sắt 3",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/005/irfon3.jpg",
-        "link":"https://r3---sn-i3belnel.c.drive.google.com/videoplayback?expire=1591296067&ei=AwjZXrvMK76OrvIPo-C60AM&ip=118.70.33.86&cp=QVNOU0NfVVBUSFhOOjVpb0dlcnp5OW9ic1BJSmhCVmNyWWhLRmVXWUdDb0Z3ek5qaWp2TVF2cng&id=a4ad9d25c181d9bc&itag=59&source=webdrive&requiressl=yes&mh=kc&mm=32&mn=sn-i3belnel&ms=su&mv=u&mvi=2&pl=20&ttl=transient&susc=dr&driveid=1P_VaSna60lMcH2XZeReZn1Df2KtSQBVC&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=7833.019&lmt=1585980281615118&mt=1591281074&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgH3vg1smpXDi5kfKR3fLbXEuA5c1QORatiAV_4Q6Hv_YCIQDttlNiy4GPXbsD8KP3iFPSfSm3hl6qrgOzlUiYMyfU1A==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgCSYEhf20rSTsuXHhdIiFckaNU3EaLqXkA_xK_0LsI2UCIBc4xWBG_x6Nna7B7R-S8DZhtsWSlaOhOU3p6q8DrniI&cpn=LyVzkRxjYZV2ghvH&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1P_VaSna60lMcH2XZeReZn1Df2KtSQBVC/preview",
         "id":3
     },
     {
         "name":"Dark Fate(2019)",
         "nameVN": "Kẻ Hủy Diệt 6",
         "img":"./videoImage/kehuydiet6.jpg",
-        "link":"https://r2---sn-i3belnl7.c.drive.google.com/videoplayback?expire=1591288810&ei=quvYXrmaJMTervIP25W88Ac&ip=118.70.33.86&cp=QVNOU0NfV1hPQVhOOjVpbkltbXN5OW9ic09LUmNVVmNyWWhKSG1SUkdDb0Z3eVByZGN2TVF2cnc&id=8ff854269faa75ef&itag=18&source=webdrive&requiressl=yes&mh=RW&mm=32&mn=sn-i3belnl7&ms=su&mv=u&mvi=1&pl=20&ttl=transient&susc=dr&driveid=1HstLGiEzeS0U_ZVELv-WcasxeifnN3au&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=7685.642&lmt=1588782089206595&mt=1591273908&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAPjFcYIxsL8KZUa_4VFw7uD1HQ76PPErg-2ORe5ok7fbAiEAgMfO0nniCEOlYRvid_x7plN2COwPh-1Dvra_t4PiKGQ=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgFzxsTGx-1SZDHiaFDeB2MDrjTJudGtyi2DkOIHPHI5cCICY9PQQlxOgJfGq_KoR-NKHYO5P9myX89HL5u1NyE6zd&cpn=Fsf8anSm8y7cU97s&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1HstLGiEzeS0U_ZVELv-WcasxeifnN3au/preview",
         "id":4
     },
     {
         "name":"Chinese Ghost Story: Human Love (2020)",
         "nameVN": "Tân Thiện Nữ U Hồn: Tình Nhân",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/007/tihen.jpg",
-        "link":"https://r4---sn-i3beln7d.c.drive.google.com/videoplayback?expire=1591290536&ei=aPLYXtCXGp2SlAeWvoDwCQ&ip=118.70.33.86&cp=QVNOU0NfT1VRR1hOOjVpb0Fqb3l5OW9ic1BDT2VBVmNyWWhLWmpUWEdDb0Z3ekhvZml2TVF2cng&id=3a98dc20dee553f0&itag=18&source=webdrive&requiressl=yes&mh=bM&mm=32&mn=sn-i3beln7d&ms=su&mv=u&mvi=3&pl=20&ttl=transient&susc=dr&driveid=1ow08noNtPZFE0DuRi3_FT3neCRp6LyHu&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=5796.629&lmt=1588775008182098&mt=1591275636&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAK9C8Du1QmcrHfMyVkrPsjWHDgWq8a-bIJiAAdoamVPBAiEAn0CM-uq7dnPl1FkGdxmgW6bK--9OEorWwG511w0V_zo=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAPh8x5tCIc3IWo_tMwzxT_L4Mgk2GAUxpXVfoo1YzSByAiEAvf2BLrEcdsXp8wujy4xcOJBLtR5Oh3_ALt1n99uqWmg=&cpn=_tyOq7IqbWLx5-eR&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1ow08noNtPZFE0DuRi3_FT3neCRp6LyHu/preview",
         "id":5
     },
     {
         "name":"The Witch: Part 1. The Subversion (2018)",
         "nameVN": "Sát Thủ Nhân Tạo",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/007/satthu.jpg",
-        "link":"https://r5---sn-i3b7kn7s.c.drive.google.com/videoplayback?expire=1591294558&ei=HgLZXpflHb6OrvIPo-C60AM&ip=118.70.33.86&cp=QVNOU0NfU1VTSVhOOjVpb0VqcWF5OW9ic1BHT2dDVmNyWWhLRGpWWkdDb0Z3ekxvaGt2TVF2cng&id=466fac09cc232e6d&itag=18&source=webdrive&requiressl=yes&mh=xV&mm=32&mn=sn-i3b7kn7s&ms=su&mv=u&mvi=4&pl=20&ttl=transient&susc=dr&driveid=18tM1a15Uwn5kWkQDMibDIzA2u8N40vCa&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=7539.217&lmt=1588784340228367&mt=1591279816&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAO6zydOnF3J1f5zQVlvaTfgp2cyxQZpmbncfchNEvfXoAiBwQKZvBiVQLHkmyc3EqcjjWqWgixrSKeLVwb3dd7FjSQ==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgPrVttHZpGBqqOTc2h5vzgoR8XLcNiFUbHspKB-anNjYCIAuzAthmlxKk1_d_M66vrA7_XTbp7Eb1d6QWxAFSOIeR&cpn=4Rw7YRTsG0AZRTl2&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1HstLGiEzeS0U_ZVELv-WcasxeifnN3au/preview",
         "id":6
     },
     {
         "name":"Miss & Mrs. Cops (2019)",
         "nameVN": "Phi Vụ Nữ Quyền",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/007/phivu.jpg",
-        "link":"https://r6---sn-i3beln76.c.drive.google.com/videoplayback?expire=1591296172&ei=awjZXo_BO8GelAfP96BA&ip=118.70.33.86&cp=QVNOU0NfVVFVQ1hOOjVpb0dmc3V5OW9ic1BJS2lXVmNyWWhLRmZYVEdDb0Z3ek5ramV2TVF2cng&id=c3439e148eac8222&itag=18&source=webdrive&requiressl=yes&mh=P1&mm=32&mn=sn-i3beln76&ms=su&mv=u&mvi=5&pl=20&ttl=transient&susc=dr&driveid=12fGIPTKccHN0sv2bo9mb0Pwul6RakD_B&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=6456.610&lmt=1588781554946794&mt=1591281074&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAMNuM3yqWlTwTmSDbScL26TcqlVm2BR8OlkrkN18NM9BAiEAwPM09t-eJbXc-vkhagD1bm-ijlyM_t9qTApjnECos7k=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAJ6Jj4L6d1X68RvJrviOoIE7L4jnEmd172y7v_eqG-TSAiA0WS_tzM2KsDe6sa8ZNwE9-IDXHNppUNDuC2CCD-UA4g==&cpn=700eV1Gtu1xbzMBc&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/12fGIPTKccHN0sv2bo9mb0Pwul6RakD_B/preview",
         "id":7
     },
     {
         "name":"Escape from Pretoria (2020)",
         "nameVN": "Phi Vụ Đào Tẩu",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/007/phivudaotau.jpg",
-        "link":"https://r4---sn-i3b7knsl.c.drive.google.com/videoplayback?expire=1591296245&ei=tQjZXujcJN2ErvIPodqGkA0&ip=118.70.33.86&cp=QVNOU0NfVVJSRlhOOjVpb0dncHh5OW9ic1BJTGZaVmNyWWhLRmdVV0dDb0Z3ek5sZ2h2TVF2cng&id=137e16cefb102399&itag=18&source=webdrive&requiressl=yes&mh=G3&mm=32&mn=sn-i3b7knsl&ms=su&mv=u&mvi=3&pl=20&ttl=transient&susc=dr&driveid=181sSTMo3tJy5Tuku9Jmx51O4aYcwmRvM&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=6358.900&lmt=1588774484302123&mt=1591281693&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgMv-ZJgQgK5tsprOZgA6hifrFpSVw1FaOYeU4la-61d0CIHNlZqbFPkGr9bwY1bgJshKkjOOkbFwGwz4YYGLgvIsv&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAIeLxEzUUmKrmdMkG6culnkkmIeWeG1Js8j2L8WY6-QYAiBIS9xFIW5puWEr1A3vVvx-1ZsdgBxzgya6-z1EWGd2RQ==&cpn=6fQQX1vVhyqDvY9-&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/181sSTMo3tJy5Tuku9Jmx51O4aYcwmRvM/preview",
         "id":8
     },
     {
         "name":"Oppa, phiền quá nha! (2019)",
         "nameVN": "Oppa, phiền quá nha!",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/007/oppa.jpg",
-        "link":"https://r2---sn-i3belne6.c.drive.google.com/videoplayback?expire=1591296306&ei=8gjZXpmSOp2SlAeWvoDwCQ&ip=118.70.33.86&cp=QVNOU0NfVVNOR1hOOjVpb0dobHl5OW9ic1BJTWJBVmNyWWhLRmhRWEdDb0Z3ek5tY2l2TVF2cng&id=61797e6f5026f0cc&itag=18&source=webdrive&requiressl=yes&mh=gQ&mm=32&mn=sn-i3belne6&ms=su&mv=u&mvi=1&pl=20&ttl=transient&susc=dr&driveid=15htuMEIEFcc4APSnYCjJ3G5klpILlXtA&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=6082.258&lmt=1588778708255037&mt=1591281693&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgaJl2IwxBcCI1ejpVRwjNGitGnPIkduJssaKPNbMSBw4CICDJcio7FQewF71LiDPORDaNPPAkx1jnUnPMuHBJ0HLF&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgB76FNxq-jr_UOyr2ScK1q11q144FAdBCMFBq3IY8oIoCIQCwC5-LvlX4lETB2355y19-6SggBAjLpJ8yktqj6ZmFlg==&cpn=MRqX3olyrMvgxt1g&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/15htuMEIEFcc4APSnYCjJ3G5klpILlXtA/preview",
         "id":9
     },
     {
         "name":"Thất sơn tâm linh (2019)",
         "nameVN": "Thất sơn tâm linh (2019)",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/006/thatsontalinh.jpg",
-        "link":"https://r5---sn-i3belnel.c.drive.google.com/videoplayback?expire=1591296352&ei=IAnZXojZErrgrvIPzLCUsAg&ip=118.70.33.86&cp=QVNOU0NfVVNTQ1hOOjVpb0docXV5OW9ic1BJTWdXVmNyWWhLRmhWVEdDb0Z3ek5taGV2TVF2cng&id=c6882f9948d3391d&itag=59&source=webdrive&requiressl=yes&mh=Rg&mm=32&mn=sn-i3belnel&ms=su&mv=u&mvi=4&pl=20&ttl=transient&susc=dr&driveid=19TuTCXOJ_FozcARWkvmLZXamBXCrpza9&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=6157.490&lmt=1584427020519897&mt=1591281693&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAK-ZViSXRf3pub3P6JEHnugjMbAwmGf-biHMva3HnASDAiBJMj9QgO4T08xgBkhmcIO8yXWlyZ3WAdx0_pg19t3R7g==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgMt87lhdSsZE3wYEtPqSIs1u8GRKNDTKmpSe6tW_SNsgCIQDC1QYijCbiYaJZhj76IwLTqqpXpc7ZEMBvHKo4kP6-Yw==&cpn=dB23zX0POk-JNltg&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/19TuTCXOJ_FozcARWkvmLZXamBXCrpza9/preview",
         "id":10
     },
     {
         "name":"The Legend of Nezha (2019)",
         "nameVN": "Na Tra: Ma đồng giáng thế",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/006/natra.jpg",
-        "link":"https://r2---sn-i3b7kn76.c.drive.google.com/videoplayback?expire=1591296477&ei=nQnZXsabJPKAmvUP94-NqA0&ip=118.70.33.86&cp=QVNOU0NfVVRVSFhOOjVpb0dpc3p5OW9ic1BJTmlCVmNyWWhLRmlYWUdDb0Z3ek5uamp2TVF2cng&id=80fe588474f13559&itag=18&source=webdrive&requiressl=yes&mh=j9&mm=32&mn=sn-i3b7kn76&ms=su&mv=u&mvi=1&pl=20&ttl=transient&susc=dr&driveid=1VkBnfLthQ32E7dhL4XAM1CQ1Yb_Vs8uJ&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=6607.609&lmt=1587260614332939&mt=1591281693&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgav4selZKBD4y3v42f1MZtUTKitig9zkjaZKBnTW8ulgCIG0DRaDc0TfVg5cb9YLqdaVB2owzW1AWvr9NX1LyzJ99&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhALLZMzaVArbpBEz-mccqYm-BxjhWbydKp39rnY3AKZT_AiARzuAQ7Hse0qG8i-0InSd_-szHtPq24mqlcPQzvXdhBQ==&cpn=9IU1r9csV1NXkf1p&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1VkBnfLthQ32E7dhL4XAM1CQ1Yb_Vs8uJ/preview",
         "id":11
     },
     {
         "name":"Pháp sư mù: Ai chết giơ tay (2019)",
         "nameVN": "Pháp sư mù: Ai chết giơ tay (2019)",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/005/phapsumu.jpg",
-        "link":"https://r5---sn-i3belnel.c.drive.google.com/videoplayback?expire=1591296584&ei=CArZXtWdGMTervIP25W88Ac&ip=118.70.33.86&cp=QVNOU0NfVVVWRVhOOjVpb0dqdHd5OW9ic1BJT2pZVmNyWWhLRmpZVkdDb0Z3ek5va2d2TVF2cng&id=700a1f3f60b9a66d&itag=59&source=webdrive&requiressl=yes&mh=EJ&mm=32&mn=sn-i3belnel&ms=su&mv=m&mvi=4&pl=20&ttl=transient&susc=dr&driveid=1poIs3Z8QUQYaYcDbJiHB78MOd5joUWjx&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=7327.358&lmt=1585983582922057&mt=1591282105&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAJnuuW7ORaQsZta42LD0eNTbhkIBmnHfbG4qdQuhzA3TAiEAucdzbP-gBixvjKAm8JhjRQyg6aMbRPGO04JN_TCqAh8=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgBTG67sZv6DcZnnOqIhQRjDzp-_yFM0cbAKZ3xTazWPwCIQD8rxIc92ztT_h-MP9ynu6WunqLM7Z_9q5Bisxkx5AngQ==&cpn=FqEA-4g210SdL1Ew&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1poIs3Z8QUQYaYcDbJiHB78MOd5joUWjx/preview",
         "id":12
     },
     {
         "name":"Sonic the Hedgehog (2020)",
         "nameVN": "Nhím Sonic: Siêu Nhím Tái Xuất",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/005/nhim.jpg",
-        "link":"https://r5---sn-i3belnel.c.drive.google.com/videoplayback?expire=1591296670&ei=XgrZXqa1CcunuAKO1qzoBQ&ip=118.70.33.86&cp=QVNOU0NfVVZVQVhOOjVpb0drc3N5OW9ic1BJUGlVVmNyWWhLRmtYUkdDb0Z3ek5wamN2TVF2cng&id=6fb4701302c42859&itag=59&source=webdrive&requiressl=yes&mh=lt&mm=32&mn=sn-i3belnel&ms=su&mv=u&mvi=4&pl=20&ttl=transient&susc=dr&driveid=1nEiZzjMrbSgDm3psTNSxTpm_qG27tIvO&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=5946.700&lmt=1585980725360869&mt=1591281693&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgNgor3mMtFUBgqwZBqN3S8um3spz6sOL74syLky-dRrYCICns2Vf9rLXKnTMrWWILaiheD3yB5G5FtTf0qCx144rJ&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAJcX8IG9KR0KQfNfpmcSUMHfH7kjApwBuTG3fxd-UfiOAiEArrgxPe1qFPhaZbR3vjR52qgeDZbVbJtYRp7CjOhmqFw=&cpn=8viNL7hKFPLkwCfg&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1nEiZzjMrbSgDm3psTNSxTpm_qG27tIvO/preview",
         "id":13
     },
     {
         "name":"The Grudge (2020)",
         "nameVN": "Lời Nguyền Chết Chóc",
         "img":"https://static.wapmaker.net/5cfafc47fce1810f802a08d0/005/loinguyen.jpg",
-        "link":"https://r2---sn-i3b7knse.c.drive.google.com/videoplayback?expire=1591296788&ei=0wrZXpy8Ot2ErvIPodqGkA0&ip=118.70.33.86&cp=QVNOU0NfVVdWSVhOOjVpb0dsdGF5OW9ic1BJUWpDVmNyWWhLRmxZWkdDb0Z3ek5xa2t2TVF2cng&id=5585794d7b8bd189&itag=59&source=webdrive&requiressl=yes&mh=L3&mm=32&mn=sn-i3b7knse&ms=su&mv=u&mvi=1&pl=20&ttl=transient&susc=dr&driveid=1ixg0NTorgAc81MMQZeSbmB_m_cbxYBhs&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=5623.501&lmt=1585982299158131&mt=1591281693&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAMhVv5fYp5R8tmsPxInx-4X5loZdJU2jz3g7ImKNb9q7AiEA1bZFt_Osf2uUepQCT7rC6VtcNCUpvTx27zPnsccz8JM=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAMC6vlemeeh7AwTMeV2SwOujIXqnfG2m-pZ9sHHW3tisAiEAhqmeXaqhM_gYeTNqEuOyRwTva2yIDXh7uSyxMbmHT5s=&cpn=2PVyiGD9L6J28Hoi&c=WEB_EMBEDDED_PLAYER&cver=20200603",
+        "link":"https://drive.google.com/file/d/1ixg0NTorgAc81MMQZeSbmB_m_cbxYBhs/preview",
         "id":14
     },{
         "name":"The Invisible Man (2020)",

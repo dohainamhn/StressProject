@@ -160,3 +160,17 @@
 .fa-trophy{
   color: yellow;
 }
+
+.page{
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.nextButton{
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  margin: 0 2px;
+}

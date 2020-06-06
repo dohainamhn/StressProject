@@ -8,9 +8,16 @@ async function loadData(url){
 async function loadVideo(){
   let data = await loadData('json/video.json')
   let html = ""
+  let pageBnt =""
   let hang = document.getElementById('hang')
+  let page = document.getElementById('page')
   count = 0;
-  for(let i = 0;i<Math.floor(data.length/6)+1;i++){
+  for(let i=1;i<Math.floor(data.length/24)+2;i++){
+    pageBnt += `<button onclick="nextBnt(${i})" class="nextButton">
+    ${i}
+    </button>`
+  }
+  for(let i = 0;i<4;i++){
     html += '<div class="cot">'
     for(let x =0;x<6;x++){
       if(count < data.length){
@@ -30,6 +37,7 @@ async function loadVideo(){
     html += "</div>"
   }
   hang.innerHTML = html
+  page.innerHTML = pageBnt
 }
 async function slideShow(){
   let data = await loadData("json/video.json")
@@ -70,7 +78,6 @@ function plusSlide(){
     }
  console.log(slide.scrollLeft)
 }
-
 async function showFilmHot(){
   let data = await loadData('json/video.json')
   const box = document.getElementById('box')
@@ -87,7 +94,6 @@ async function showFilmHot(){
   }
   box.innerHTML = html
 }
-
 async function press(n){
   const data = await loadData('json/video.json')
   const video = document.getElementById('video')
@@ -108,6 +114,39 @@ function off(){
 }
 async function show(){
   console.log(await loadData("json/video.json"))
+}
+async function nextBnt(x){
+  let end   = 24*x
+  let start = end - 24
+  let data  = await loadData('json/video.json')
+  let hang  = document.getElementById('hang')
+  let html  = ""
+  hang.innerHTML = ""
+  for(let i = 0;i<4;i++){
+    html += '<div class="cot">'
+    for(let x = 0;x<6;x++){
+      if(start >= end||start >= data.length){
+        break;
+      }
+      else
+      {
+        html += `<div class="hop" onclick="press(${data[start].id})">
+        <img class ="cursor" src="${data[start]['img']}">
+        <div class ="overlay"></div>
+        <div class ="name cursor">
+        <p>${data[start].name}</p>
+        </div>
+        </div>`
+      }
+      start ++
+      console.log(start)
+    }
+    html += "</div>"
+    if(start >= end||start >= data.lengt){
+      break;
+    }
+  }
+  hang.innerHTML = html
 }
 show()
 loadVideo()
