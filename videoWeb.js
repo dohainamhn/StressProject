@@ -1,5 +1,4 @@
 let slide = document.getElementById('slide')
-
 let x =0
 async function loadData(url){
   const data = await fetch(url)
@@ -109,8 +108,11 @@ async function press(n){
   container.style.display = "flex"
 }
 function off(){
+  const video = document.getElementById('video')
   const screen = document.getElementById("container-content")
   screen.style.display = "none"
+  video.innerHTML = ""
+  
 }
 async function show(){
   console.log(await loadData("json/video.json"))
