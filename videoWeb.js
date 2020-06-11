@@ -139,10 +139,10 @@ async function show() {
     console.log(await loadData("json/video.json"))
 }
 
-async function nextBnt(x) {
+function nextBnt(x) {
     let end = 24 * x
     let start = end - 24
-    let data = await loadData('json/video.json')
+
     let hang = document.getElementById('hang')
     let html = ""
     hang.innerHTML = ""
