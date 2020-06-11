@@ -2,6 +2,7 @@ let slidershow = document.getElementsByClassName('slider-defult__img-vertical');
 let img = document.querySelector('.img');
 let columnImg = document.querySelectorAll('.column-img');
 let imgsmall = document.querySelectorAll('.img-small');
+const resultSearch = document.querySelector('.result-search');
 let indexImgSmall = 0;
 //========= di chuột chuyển slider ===========
 function changeslides(a, index) {
@@ -21,3 +22,38 @@ window.setInterval(() => {
   changeslides(getAttribute, indexImgSmall);
   indexImgSmall++;
 }, 3000);
+
+// search
+let data;
+const search = document.getElementById('search');
+
+search.addEventListener('input', (e) => {
+  clear();
+  const valueInput = e.target.value.toLowerCase();
+  let i = data.filter((element) => {
+    return element.name.toLowerCase().includes(valueInput);
+  });
+
+  if (valueInput.length > 0) {
+    for (let a = 0; a <= 5; a++) {
+      resultSearch.innerHTML += `<a href="https://www.w3schools.com/"><li>${i[a].name}</li></a>`;
+    }
+  } else {
+    clear();
+  }
+});
+window.onclick = function (event) {
+  clear();
+};
+
+function clear() {
+  resultSearch.innerHTML = '';
+}
+
+const loadData = async () => {
+  const getData = await (await fetch('./data/data.json')).json();
+
+  data = getData;
+};
+
+loadData();

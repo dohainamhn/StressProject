@@ -19,7 +19,7 @@
                 <ul class="top-nav__list-item">
                     <li><a href="http://www.google.com"><img src="./image/elephant.svg" alt=""></a></li>
                     <li><a href="http://www.google.com">clip</a></li>
-                    <li><a href="#">music</a></li>
+                    <li><a href="">music</a></li>
                     <li><a href="#">about</a></li>
                     <li><a href="#">contact</a></li>
                     <!-- <li class="top-nav__list-item"></li> -->
@@ -27,7 +27,12 @@
             </div>
             <div class="column-right">
                 <div class="top-nav__search">
-                    <input type="text" placeholder="Search.." name="search">
+                    <div class="container-input">
+                      <input id="search" placeholder="Search.." >
+                      <ul class="result-search">
+                      </ul>
+                    </div>
+
                     <button type="submit"><i class="fas fa-search"></i></ibutton>
                 </div>
             </div>
@@ -237,7 +242,7 @@
       <div class="container">
         <div class="row-footer">
           <div class="column-footer">
-            <h3 class="footer__heading">made by</h3>
+            <h3 class="footer__heading">Made by</h3>
             <ul class="footer-list">
               <li class="footer-item">
                 <a href="" class="footer-item__link">Bùi Văn Hiếu</a>
@@ -272,7 +277,7 @@
             </ul>
           </div>
           <div class="column-footer">
-            <h3 class="footer__heading">contact with us</h3>
+            <h3 class="footer__heading">Contact with us</h3>
             <ul class="footer-list">
               <li class="footer-item">
                 <a href="" class="footer-item__link"><i  class="fab fa-facebook-square"></i> FaceBook</a>
