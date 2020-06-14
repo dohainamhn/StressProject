@@ -26,7 +26,11 @@ header {
   position: fixed;
   /* padding: 1rem 0; */
   top: 0;
+<<<<<<< HEAD
+  z-index: 100;
+=======
   z-index: 10;
+>>>>>>> d9c230f1d4c5f39a9fafac734754d3e837e1e2f5
 }
 
 .container {
