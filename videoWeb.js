@@ -1,9 +1,11 @@
 let slide = document.getElementById('slide');
 let x = 0;
 let id = sessionStorage.getItem('id');
+let databnt;
 async function loadData(url) {
   const res = await fetch('json/video.json');
   data = await res.json();
+  databnt = data;
   loadVideo(data);
   slideShow(data);
   showFilmHot(data);
@@ -131,17 +133,16 @@ async function show() {
   console.log(await loadData('json/video.json'));
 }
 
-async function nextBnt(x) {
+function nextBnt(x) {
   let end = 24 * x;
   let start = end - 24;
-  let data = await loadData('json/video.json');
   let hang = document.getElementById('hang');
   let html = '';
   hang.innerHTML = '';
   for (let i = 0; i < 4; i++) {
     html += '<div class="cot">';
     for (let x = 0; x < 6; x++) {
-      if (start >= end || start >= data.length) {
+      if (start >= end || start >= databnt.length) {
         break;
       } else {
         html += `<div class="hop" onclick="press(${data[start].id})">
@@ -166,6 +167,7 @@ async function nextBnt(x) {
 function test(id, data) {
   const container = document.getElementById('container-content');
   if (id == -1) {
+  } else if (id === null) {
   } else {
     let html = `<iframe width="900" height="506" src="${
       data[id - 1].link
