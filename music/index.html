@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .album-cover {
+            width: 128px;
+            height: 128px;
+            background-color: #DDD;
+            background-image: url('https://picsum.photos/200/300');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FFF;
+            font-size: 20px;
+        }
+        
+        .album-cover .overlay {
+            height: 128px;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(217, 217, 217, 1) 100%, rgba(0, 212, 255, 1) 100%);
+            display: flex;
+            align-items: flex-end;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="album-cover">
+        <div class="overlay">
+            <span>02</span>
+        </div>
+    </div>
+</body>
+
+</html>
