@@ -17,11 +17,12 @@
           <div class="row">
             <div class="column">
                 <ul class="top-nav__list-item">
-                    <li><a href="http://www.google.com"><img src="./image/elephant.svg" alt=""></a></li>
-                    <li><a href="http://www.google.com">clip</a></li>
-                    <li><a href="">music</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="index.html"><img src="./image/elephant.svg" alt=""></a></li>
+                    <li><a href="videoIndex.html"
+                     onclick="move(-1)">Movie</a></li>
+                    <li><a href="./music/index.html" onclick="move(-1)">Music</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                     <!-- <li class="top-nav__list-item"></li> -->
                 </ul>
             </div>
@@ -33,7 +34,7 @@
                       </ul>
                     </div>
 
-                    <button type="submit"><i class="fas fa-search"></i></ibutton>
+                    <button type="submit" onclick="ab()"><i class="fas fa-search"></i></ibutton>
                 </div>
             </div>
           </div>
@@ -47,192 +48,50 @@
             <div class="column-left">
                 <div class="slider-defult">
                   <div class="slider-defult__img-vertical">
-                      <a class="aa" href="https://zingmp3.vn/">
-                        <img class="img" src="/image/1590053899547_org.jpg"  alt="">
+                      <a class="aa" href="videoIndex.html"  >
+                        <img class="img" src="https://wallpapercave.com/wp/ZaIF4KJ.jpg"  alt="">
                       </a>
                   </div>
                   <div class="slider-defult__small-img">
-                    <div class="column-img">
-                      <a href="https://zingmp3.vn/">
-                        <img class="img-small" src="/image/1590053899547_org.jpg" onmouseover="changeslides('/image/1590053899547_org.jpg',0)">
-                      </a>
-                    </div>
-                    <div class="column-img">
-                      <img class="img-small" src="/image/1590399390317_org.jpg"  onmouseover="changeslides('/image/1590399390317_org.jpg',1)" >
-                    </div>
-                    <div class="column-img">
-                      <img class="img-small" src="/image/1590399523642_org.jpg"  onmouseover="changeslides('/image/1590399523642_org.jpg',2)">
-                    </div>
-                    <div class="column-img">
-                      <img class="img-small" src="/image/1590399801113_org.jpg"  onmouseover="changeslides('/image/1590399801113_org.jpg',3)">
-                    </div>
-                    <div class="column-img">
-                      <img class="img-small" src="/image/1590482312716_org.jpg" onmouseover="changeslides('/image/1590482312716_org.jpg',4)" >
-                    </div>
                   </div>
                 </div>
-                <div class="box-music">
+                <div class="container-box">
                   <div class="box-title">
-                    <a href="https://www.nhaccuatui.com"><h2>HÔM NAY NGHE GÌ <i class="fab fa-soundcloud"></i></h2></a>
+                    <a href="videoIndex.html"><h2>HÔM NAY XEM GÌ <i class="fab fa-soundcloud"></i></h2></a>
                   </div>
                   <div class="content">
-                    <ul class="list-box">
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
+                    <ul id= "list-video" class="list-box">
 
-                        </div>
-                        <div class="info-box">
-                          <a href="https://www.nhaccuatui.com/"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
-
-                        </div>
-                        <div class="info-box">
-                          <a  href="#"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
-
-                        </div>
-                        <div class="info-box">
-                          <a  href="#"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
-
-                        </div>
-                        <div class="info-box">
-                          <a href="#"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
-
-                        </div>
-                        <div class="info-box">
-                          <a  href="#"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
                     </ul>
                   </div>
                 </div>
 
-                <div class="box-music ">
+                <div class="container-box ">
                   <div class="box-title">
                     <a href="https://www.nhaccuatui.com"><h2>HÔM NAY NGHE GÌ <i class="fab fa-soundcloud"></i></h2></a>
                   </div>
                   <div class="content">
-                    <ul class="list-box">
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
+                    <ul id="list-music" class="list-box">
 
-                        </div>
-                        <div class="info-box">
-                          <a href="https://www.nhaccuatui.com/"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
-
-                        </div>
-                        <div class="info-box">
-                          <a  href="#"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
-
-                        </div>
-                        <div class="info-box">
-                          <a  href="#"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
-
-                        </div>
-                        <div class="info-box">
-                          <a href="#"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="box-play">
-                          <a class="reletive" href="https://www.nhaccuatui.com/">
-                            <img src="https://loremflickr.com/320/240" alt="">
-                            <div class="overlay">
-                              <i class="far fa-play-circle"></i>
-                            </div>
-                          </a>
-
-                        </div>
-                        <div class="info-box">
-                          <a  href="#"><h3>nhạc mèo trữ tình</h3></a>
-                        </div>
-                      </li>
                     </ul>
                   </div>
 
                 </div>
             </div>
-            <div class="column-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti natus, esse accusantium similique itaque, magni eum recusandae neque porro mollitia excepturi beatae totam facere quidem rem ratione eius nostrum. Animi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos iste, cum doloremque soluta quo deleniti necessitatibus delectus libero cumque? Debitis rerum itaque eius delectus, earum voluptate laudantium in explicabo aliquid!</div>
+            <div class="column-right">
+              <div id="box-img">
+                <a href="videoIndex.html" onclick="move(11)">
+                  <img src="https://static.wapmaker.net/5cfafc47fce1810f802a08d0/006/natra.jpg" alt="">
+                </a>
+
+                <a href="videoIndex.html" onclick="move(12)">
+                <img src="https://static.wapmaker.net/5cfafc47fce1810f802a08d0/005/phapsumu.jpg" alt="">
+              </a>
+              <a href="videoIndex.html" onclick="move(13)">
+                <img src="https://static.wapmaker.net/5cfafc47fce1810f802a08d0/005/nhim.jpg" alt="">
+              </a>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -298,5 +157,6 @@
     </footer>
     <script src="https://kit.fontawesome.com/583698486f.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <!-- <script src="videoWeb.js"></script> -->
   </body>
 </html>
