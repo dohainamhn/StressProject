@@ -157,29 +157,9 @@
     </footer>
     <script src="https://kit.fontawesome.com/583698486f.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v9.0'
-        });
-      };
+    <div class="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="15" data-width="350" data-height="420"></div>
 
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat"
-      attribution=setup_tool
-      page_id="100611855268830">
-    </div>
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
     <!-- <script src="videoWeb.js"></script> -->
   </body>
 </html>
